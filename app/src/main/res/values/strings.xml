@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">我的车费计算</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="lichengf">里程费(元/公里)</string><string name="action_settings">退出</string>
+    <string name="shichangf">时长费(元/分钟)</string>
+    <string name="zuidixf">最低消费(元)</string>
+    <string name="yuantuf">远途费(元/公里)</string>
+    <string name="shijian">时间(分钟)</string>
+    <string name="licheng">里程(公里)</string>
+    <string name="zongfy">大约总费用(元)</string>
+    <string name="jisuan">计算</string>
+    <string name="youf">油费(元/升)</string>
+    <string name="baiglhy">平均百公里耗油(升/100公里)</string>
+    <string name="chengbe">成本</string>
+    <string name="Lmeiyibaikm">升/100公里</string>
+    <string name="meigl">大约每公里</string>
+    <string name="zongchengbe">大约总成本</string>
+    <string name="qibuf">起步费(两公里内)</string>
+    <string name="chaoqigl">超七公里开始计算</string>
+    <string name="action_guanyu">关于</string>
+    <string name="action_moren">默认参考值自动填入</string>
+</resources>

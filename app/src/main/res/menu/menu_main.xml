@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="top.example.myqichex.MainActivity">
+    <item
+        android:id="@+id/action_guanyu"
+        android:orderInCategory="100"
+
+        android:title="@string/action_guanyu"/>
+    <item
+        android:id="@+id/action_moren"
+        android:orderInCategory="100"
+
+        android:title="@string/action_moren"/>
+</menu>

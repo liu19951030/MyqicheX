@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="top.example.myqichex.MainActivity">
+ <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+			
+
+
+   <EditText
+       android:id="@+id/lichengfedit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="8dp"
+       android:hint="@string/lichengf"
+       android:inputType="numberDecimal"
+       android:maxLength="7"
+       android:textSize="14sp"
+       app:layout_constraintStart_toEndOf="@+id/lichengftext"
+       app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/lichengftext"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/lichengf"
+        app:layout_constraintBottom_toBottomOf="@+id/lichengfedit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <EditText
+        android:id="@+id/shichangfedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:hint="@string/shichangf"
+        android:inputType="numberDecimal"
+        android:maxLength="7"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/shichangftext"
+        app:layout_constraintTop_toBottomOf="@+id/lichengfedit" />
+
+    <TextView
+        android:id="@+id/shichangftext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/shichangf"
+        app:layout_constraintBottom_toBottomOf="@+id/shichangfedit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <EditText
+        android:id="@+id/yuantufedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:hint="@string/chaoqigl"
+        android:inputType="numberDecimal"
+        android:maxLength="7"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/yuantuftext"
+        app:layout_constraintTop_toBottomOf="@+id/shichangfedit" />
+
+    <TextView
+        android:id="@+id/yuantuftext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/yuantuf"
+        app:layout_constraintBottom_toBottomOf="@+id/yuantufedit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <EditText
+        android:id="@+id/shijianedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:hint="@string/shijian"
+        android:inputType="numberDecimal"
+        android:maxLength="7"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/shijiantext"
+        app:layout_constraintTop_toBottomOf="@+id/yuantufedit" />
+
+    <TextView
+        android:id="@+id/shijiantext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/shijian"
+        app:layout_constraintBottom_toBottomOf="@+id/shijianedit"
+        app:layout_constraintStart_toEndOf="@+id/lichengedit" />
+
+
+    <EditText
+        android:id="@+id/lichengedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:hint="@string/licheng"
+        android:inputType="numberDecimal"
+        android:maxLength="7"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/lichengtext"
+        app:layout_constraintTop_toBottomOf="@+id/yuantufedit" />
+
+    <TextView
+        android:id="@+id/lichengtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/licheng"
+        app:layout_constraintBottom_toBottomOf="@+id/lichengedit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <EditText
+        android:id="@+id/zongfyedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:enabled="false"
+        android:hint="@string/zongfy"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/zongfytext"
+        app:layout_constraintTop_toBottomOf="@+id/lichengedit" />
+
+    <TextView
+        android:id="@+id/zongfytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/zongfy"
+        app:layout_constraintBottom_toTopOf="@+id/zuidixfedit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/zuidixfedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:hint="@string/qibuf"
+        android:inputType="numberDecimal"
+        android:maxLength="7"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/zuidixftext"
+        app:layout_constraintTop_toBottomOf="@+id/zongfyedit" />
+
+    <TextView
+        android:id="@+id/zuidixftext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/zuidixfedit"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/zuidixf"
+        app:layout_constraintBottom_toBottomOf="@+id/zuidixfedit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/jisuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zuidixfedit"
+        android:layout_marginLeft="8dp"
+        android:onClick="buttjisuan"
+        android:text="@string/jisuan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/zuidixfedit" />
+
+
+    <EditText
+        android:id="@+id/youfedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:hint="@string/youf"
+        android:inputType="numberDecimal"
+        android:maxLength="7"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/youftext"
+        app:layout_constraintTop_toBottomOf="@+id/jisuan" />
+
+    <TextView
+        android:id="@+id/youftext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/youfedit"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/youf"
+        app:layout_constraintBottom_toBottomOf="@+id/youfedit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <EditText
+        android:id="@+id/baiglhyedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:hint="@string/Lmeiyibaikm"
+        android:inputType="numberDecimal"
+        android:maxLength="7"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/baiglhytext"
+        app:layout_constraintTop_toBottomOf="@+id/youfedit" />
+
+    <TextView
+        android:id="@+id/baiglhytext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/baiglhy"
+        app:layout_constraintBottom_toBottomOf="@+id/baiglhyedit"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/chengbebutt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/baiglhyedit"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:onClick="buttchengbejisuan"
+        android:text="@string/chengbe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/baiglhyedit" />
+
+    <TextView
+        android:id="@+id/meiglchengbetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chengbebutt"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/meigl"
+        app:layout_constraintStart_toEndOf="@+id/chengbebutt"
+        app:layout_constraintTop_toBottomOf="@+id/baiglhyedit" />
+
+    <TextView
+        android:id="@+id/zongchengbetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/meiglchengbetext"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/zongchengbe"
+        app:layout_constraintStart_toEndOf="@+id/chengbebutt"
+        app:layout_constraintTop_toBottomOf="@+id/meiglchengbetext" />
+
+</android.support.constraint.ConstraintLayout>
